@@ -10,7 +10,7 @@ export const HeroCard = ({
   characters,
 }) => {
   return (
-    <div className="col" key={id} style={{ maxWidth: 540 }}>
+    <div className="col mt-2" key={id} style={{ maxWidth: 540 }}>
       <div className="card">
         <div className="row">
           <div className="col-md-4">
