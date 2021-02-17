@@ -9,6 +9,8 @@ import { Navbar } from "../components/ui/Navbar";
 export const DashboardRoutes = () => {
   return (
     <>
+      {/*El NavBar no es una ruta, por eso no tiene acceso a history, para esto se usa un hook
+      en NavBar.js*/}
       <Navbar />
       <div className="container mt-2">
         <Switch>
