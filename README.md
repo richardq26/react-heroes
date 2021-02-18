@@ -1,6 +1,9 @@
-# Buscador de bebidas con react
+# Aplicación de heroes con React
+## Hooks que se usan
+useReducer, useContext, useState, useEffect
 
-## Se usa useContext para Categorias, Recetas, Modales
+### Hooks personalizados:
+useForm
 
-### Api que se usa
-https://www.thecocktaildb.com/api.php
+## Para ejecutar
+npm run dev
